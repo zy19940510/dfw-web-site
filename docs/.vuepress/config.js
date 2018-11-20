@@ -7,7 +7,7 @@ var { genNav, getComponentSidebar, deepClone } = utils
 module.exports = {
   title: 'DFW-Document',
   description: 'A magical annotator app',
-  base: '/vue-element-admin-site/',
+  base: '/',
   head: [
     [
       'link',
@@ -23,10 +23,6 @@ module.exports = {
     docsDir: 'docs',
     editLinks: true,
     sidebarDepth: 3,
-    algolia: {
-      apiKey: 'ffce0083d0830de5f562c045a481410b',
-      indexName: 'vue_element_admin'
-    },
     locales: {
       '/': {
         label: 'English',

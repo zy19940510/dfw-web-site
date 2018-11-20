@@ -12,7 +12,7 @@ pageClass: getting-started
 [![donate](https://img.shields.io/badge/%24-donate-ff69b4.svg)](https://panjiachen.github.io/vue-element-admin-site/donate)
 [![GitHub stars](https://img.shields.io/github/stars/PanJiaChen/vue-element-admin.svg?style=social&label=Stars)](https://github.com/PanJiaChen/vue-element-admin)
 
-[vue-element-admin](https://github.com/PanJiaChen/vue-element-admin) is a front-end management background integration solution based on Vue 2.0 that uses the Element UI component library. It uses the latest front-end technology stack, provides a typical business model, and provides various components that can help you quickly build enterprise-level back-office product prototypes.
+[vue-element-admin](https://github.com/PanJiaChen/vue-element-admin) is a front-end management background integration solution based on Vue 2.5 that uses the Element UI component library. It uses the latest front-end technology stack, provides a typical business model, and provides various components that can help you quickly build enterprise-level back-office product prototypes.
 
 :::tip
 The project is positioned as a background integration solution and is not suitable for secondary development as a basic template.
