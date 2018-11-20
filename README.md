@@ -1,13 +1,13 @@
 # vue-element-admin-site
-The documentation source of [vue-element-admin](https://github.com/PanJiaChen/vue-element-admin)
+The documentation source of [dfw-web-site](https://github.com/PanJiaChen/vue-element-admin)
 
-[Online](https://panjiachen.github.io/vue-element-admin-site)
+<!-- [Online](https://panjiachen.github.io/vue-element-admin-site) -->
 
 ## Development
 
 ```bash
 # clone the project
-git clone git@github.com:PanJiaChen/vue-element-admin-site.git
+git clone git@github.com:zy19940510/dfw-web-site.git
 
 # install dependency
 npm install

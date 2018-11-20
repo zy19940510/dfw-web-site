@@ -151,7 +151,7 @@ This project has built the following templates, and have built a scaffold based 
 
 ```bash
 # clone the project
-git clone https://github.com/PanJiaChen/vue-element-admin.git
+git clone https://gitlab.iquantex.com/DFW/dfw-web.git
 
 # install dependency
 npm install
@@ -166,7 +166,7 @@ This will automatically open http://localhost:9527.
 
 If you see the following page then you have succeeded.
 
-![](https://wpimg.wallstcn.com/1bc334a6-32a8-4f29-a037-ac3f5ce32588.png)
+![](../.vuepress/public/pic1.jpg)
 
 We have built-in models, standard components, mock data, hot module reloading, state management, i18n, global router, etc. You can continue exploring other documents for more details on those topics.
 

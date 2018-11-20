@@ -5,8 +5,8 @@ var utils = require('./utils.js')
 var { genNav, getComponentSidebar, deepClone } = utils
 
 module.exports = {
-  title: 'vue-element-admin',
-  description: 'A magical vue admin',
+  title: 'DFW-Document',
+  description: 'A magical annotator app',
   base: '/vue-element-admin-site/',
   head: [
     [
@@ -18,8 +18,8 @@ module.exports = {
     ]
   ],
   themeConfig: {
-    repo: 'PanJiaChen/vue-element-admin',
-    docsRepo: 'PanJiaChen/vue-element-admin-site',
+    repo: 'zy19940510/dfw-web',
+    docsRepo: 'zy19940510/dfw-web-site',
     docsDir: 'docs',
     editLinks: true,
     sidebarDepth: 3,
@@ -40,14 +40,6 @@ module.exports = {
           {
             text: 'Features',
             items: genNav(deepClone(ComponentNav), 'EN')
-          },
-          {
-            text: 'Ecosystem',
-            items: genNav(deepClone(EcosystemNav), 'EN')
-          },
-          {
-            text: 'Donate',
-            link: '/donate/'
           }
         ],
         sidebar: {
@@ -90,14 +82,6 @@ module.exports = {
           {
             text: '功能',
             items: genNav(deepClone(ComponentNav), 'ZH')
-          },
-          {
-            text: '生态系统',
-            items: genNav(deepClone(EcosystemNav), 'ZH')
-          },
-          {
-            text: '捐赠',
-            link: '/zh/donate/'
           }
         ],
         sidebar: {
@@ -125,11 +109,11 @@ module.exports = {
   locales: {
     '/': {
       lang: 'en-US',
-      description: 'A magical vue admin'
+      description: 'A magical annotator app'
     },
     '/zh/': {
       lang: 'zh-CN',
-      description: 'A magical vue admin'
+      description: 'A magical annotator app'
     }
   },
   configureWebpack: {

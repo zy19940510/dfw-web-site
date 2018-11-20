@@ -148,7 +148,7 @@ pageClass: getting-started
 
 ```bash
 # 克隆项目
-git clone https://github.com/PanJiaChen/vue-element-admin.git
+git clone https://gitlab.iquantex.com/DFW/dfw-web.git
 
 # 安装依赖
 npm install
@@ -173,7 +173,7 @@ npm install --registry=https://registry.npm.taobao.org
 
 启动完成后会自动打开浏览器访问 http://localhost:9527， 你看到下面的页面就代表操作成功了。
 
-![](https://wpimg.wallstcn.com/1bc334a6-32a8-4f29-a037-ac3f5ce32588.png)
+![](../../.vuepress/public/pic1.jpg)
 
 接下来你可以修改代码进行业务开发了，我们内建了典型业务模板、常用业务组件、模拟数据、HMR 实时预览、状态管理、国际化、全局路由等等各种实用的功能来辅助开发，你可以继续阅读和探索左侧的其他文档。
 
@@ -182,19 +182,6 @@ npm install --registry=https://registry.npm.taobao.org
 ::: tip 建议
 你可以把 `vue-element-admin`当做工具箱或者集成方案仓库，在 `vue-admin-template` 的基础上进行二次开发，想要什么功能或者组件就去 `vue-element-admin` 那里复制过来。
 :::
-
-## Contribution
-
-本文档项目地址 [vue-element-admin-site](https://github.com/PanJiaChen/vue-element-admin-site) 基于 [vuepress](https://github.com/vuejs/vuepress)开发。
-
-有任何修改和建议都可以该项目 pr 和 issue
-
-[vue-element-admin](https://github.com/PanJiaChen/vue-element-admin) 还在持续迭代中，逐步沉淀和总结出更多功能和相应的实现代码，总结中后台产品模板/组件/业务场景的最佳实践。本项目也十分期待你的参与和[反馈](https://github.com/PanJiaChen/vue-element-admin/issues)。
-
-## 捐赠
-
-如果你觉得这个项目帮助到了你，你可以帮作者买一杯果汁表示鼓励 :heart:
-[Donate](/zh/donate/)
 
 ## Browsers Support
 
